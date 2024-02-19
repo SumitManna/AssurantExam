@@ -11,7 +11,7 @@ namespace AssurantTest.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class OrderController(IOrderService orderService, ILogger<OrderResponseModel> logger) : Controller
+    public class OrderController(IOrderService orderService, ILogger<OrderController> logger) : Controller
     {
         [HttpPost("{customerId}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(OrderResponseModel))]

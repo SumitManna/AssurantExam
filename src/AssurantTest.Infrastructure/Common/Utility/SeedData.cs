@@ -12,7 +12,7 @@
             {
                 return string.Empty;
             }
-            StreamReader streamReader = new StreamReader(fullPath);
+            var streamReader = new StreamReader(fullPath);
             string json = streamReader.ReadToEnd();
             streamReader.Close();
             return json;

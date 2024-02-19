@@ -7,6 +7,7 @@ using AssurantTest.Domain.Models.RequestModel;
 using AssurantTest.Domain.Models.ResponseModel;
 using AssurantTest.Infrastructure.Services;
 using AssurantTest.Unit.Tests.BaseSetup;
+using Microsoft.Extensions.Logging;
 using Moq;
 using System.Net;
 
@@ -21,6 +22,7 @@ namespace AssurantTest.Unit.Tests.Services
         private readonly Mock<ICouponRepository> couponRepository;
         private readonly Mock<IOrderRepository> orderRepository;
         private readonly Mock<ITaxCalculationService> taxCalculationService;
+        private readonly Mock<ILogger<OrderService>> logger; 
         private readonly OrderService orderService;
 
         public OrderServiceTest()
@@ -32,6 +34,7 @@ namespace AssurantTest.Unit.Tests.Services
             couponRepository = new Mock<ICouponRepository>();
             taxCalculationService = new Mock<ITaxCalculationService>();
             orderRepository = new Mock<IOrderRepository>();
+            logger = new Mock<ILogger<OrderService>>();
             orderService = new OrderService(
                 stateRepository.Object,
                 productRepository.Object,
@@ -39,7 +42,8 @@ namespace AssurantTest.Unit.Tests.Services
                 promotionRepository.Object,
                 orderRepository.Object,
                 customerRepository.Object,
-                taxCalculationService.Object
+                taxCalculationService.Object,
+                logger.Object
                 );
         }
 

@@ -5,6 +5,7 @@ using AssurantTest.Application.Interfaces.Services;
 using AssurantTest.Application.Model;
 using AssurantTest.Domain.Models.RequestModel;
 using AssurantTest.Domain.Models.ResponseModel;
+using Microsoft.Extensions.Logging;
 using System.Net;
 
 namespace AssurantTest.Infrastructure.Services
@@ -16,7 +17,8 @@ namespace AssurantTest.Infrastructure.Services
         IPromotionRepository promotionRepository,
         IOrderRepository orderRepository,
         ICustomerRepository customerRepository,
-        ITaxCalculationService taxCalculationService
+        ITaxCalculationService taxCalculationService,
+        ILogger<OrderService> logger
         ) : IOrderService
     {
         public async Task<OrderResponseModel> SaveOrderDataAsync(List<OrderRequestModel> orderRequestModels, Guid customerId)
@@ -76,8 +78,9 @@ namespace AssurantTest.Infrastructure.Services
 
                 return new OrderResponseModel(Guid.NewGuid(), order.OrderDate, customerId, totalCost, preTaxCost, taxAmount, discountAmount);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                logger.LogError($"Exception: {ex.Message}");
                 throw new ApiException((int)HttpStatusCode.InternalServerError, "Something went wrong!!");
             }
         }
