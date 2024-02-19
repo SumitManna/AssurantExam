@@ -1,0 +1,50 @@
+[
+  {
+    "id": "651cc8dc-5726-49d2-89b3-ab3e7e259956",
+    "productId": "4dffcd31-006f-4bd6-aaa2-c9dfe7397342",
+    "code": "CP1",
+    "validFrom": "2024-02-18",
+    "validTo": "2024-02-20",
+    "discountPercentage": 0.05
+  },
+  {
+    "id": "386c1839-231d-4495-881f-480d92f0dbc7",
+    "productId": "b42ce9da-afbd-4192-9a24-3fb705c9203d",
+    "code": "CP2",
+    "validFrom": "2024-02-23",
+    "validTo": "2024-02-27",
+    "discountPercentage": 0.02
+  },
+  {
+    "id": "f978afbb-01a3-4dca-9a84-708cc39ccf62",
+    "productId": "52e9001d-0bea-4e79-a0b3-7a3d10dbdd79",
+    "code": "CP3",
+    "validFrom": "2024-02-18",
+    "validTo": "2024-02-24",
+    "discountPercentage": 0.15
+  },
+  {
+    "id": "dcaa476a-b2e5-477b-bf82-0ecdbec0f7a4",
+    "productId": "1e14382d-15bb-47e6-84ed-1c775a453369",
+    "code": "CP4",
+    "validFrom": "2024-02-26",
+    "validTo": "2024-02-27",
+    "discountPercentage": 0.10
+  },
+  {
+    "id": "1abbd7b0-59d1-41b4-b944-eb0963309fee",
+    "productId": "82b873c4-1d3b-4072-aa73-dcdc1cb05883",
+    "code": "CP5",
+    "validFrom": "2024-02-17",
+    "validTo": "2024-02-20",
+    "discountPercentage": 0.15
+  },
+  {
+    "id": "ca86e2c6-c22e-4746-8528-49405369f641",
+    "productId": "dc838b7c-4733-4949-83dc-801da7d3c9cb",
+    "code": "CP6",
+    "validFrom": "2024-02-24",
+    "validTo": "2024-02-27",
+    "discountPercentage": 0.10
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "5e81e9e3-0901-41ff-80e2-1869ff654e2b",
+    "discountPercentage": 0.10,
+    "validFrom": "2024-02-19",
+    "validTo": "2024-02-21"
+  },
+  {
+    "id": "586a32f9-3bdf-4213-bc06-8eced88ec9d5",
+    "discountPercentage": 0.05,
+    "validFrom": "2024-02-25",
+    "validTo": "2024-02-27"
+  }
+]

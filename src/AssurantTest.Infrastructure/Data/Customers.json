@@ -1,0 +1,27 @@
+[
+  {
+    "id": "c9f4266b-5e93-4d25-9b65-9fa3219a4e02",
+    "stateId": "6feb0361-5c0b-4996-9995-2682212a19b9",
+    "name": "GA Customer"
+  },
+  {
+    "id": "9c0762f1-e6fe-4621-9042-9ba8b0469044",
+    "stateId": "55dd7e73-5e81-4c7b-b25d-a497f4751557",
+    "name": "FL Customer"
+  },
+  {
+    "id": "b337bbaf-5925-44a9-8a55-3c4fb29049fa",
+    "stateId": "7183919d-9467-4bcb-b258-aa4764a3df2b",
+    "name": "NY Customer"
+  },
+  {
+    "id": "910426d1-92ec-4d34-970c-bb81d550938b",
+    "stateId": "712ec11f-9938-4966-bd2f-4c65d18b6384",
+    "name": "NM Customer"
+  },
+  {
+    "id": "0f678d47-17af-49e9-bed3-4cc51a4113b2",
+    "stateId": "14ffeee7-5287-4372-82d3-110b2ef871ff",
+    "name": "NV Customer"
+  }
+]

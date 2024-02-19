@@ -1,0 +1,50 @@
+[
+  {
+    "id": "4dffcd31-006f-4bd6-aaa2-c9dfe7397342",
+    "name": "Product 1",
+    "price": 20.0,
+    "isLuxuryProduct": false
+  },
+  {
+    "id": "e597bf8a-94e1-4a92-9555-703d5198f4ad",
+    "name": "Product 2",
+    "price": 10.0,
+    "isLuxuryProduct": true
+  },
+  {
+    "id": "b42ce9da-afbd-4192-9a24-3fb705c9203d",
+    "name": "Product 3",
+    "price": 25.0,
+    "isLuxuryProduct": false
+  },
+  {
+    "id": "52e9001d-0bea-4e79-a0b3-7a3d10dbdd79",
+    "name": "Product 4",
+    "price": 50.0,
+    "isLuxuryProduct": true
+  },
+  {
+    "id": "1e14382d-15bb-47e6-84ed-1c775a453369",
+    "name": "Product 5",
+    "price": 200.0,
+    "isLuxuryProduct": true
+  },
+  {
+    "id": "82b873c4-1d3b-4072-aa73-dcdc1cb05883",
+    "name": "Product 6",
+    "price": 40.0,
+    "isLuxuryProduct": false
+  },
+  {
+    "id": "2a7fff41-6a87-4c14-a453-d8975281a4c0",
+    "name": "Product 7",
+    "price": 20.0,
+    "isLuxuryProduct": false
+  },
+  {
+    "id": "dc838b7c-4733-4949-83dc-801da7d3c9cb",
+    "name": "Product 8",
+    "price": 30.0,
+    "isLuxuryProduct": true
+  }
+]
