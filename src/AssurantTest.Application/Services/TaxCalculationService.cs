@@ -67,6 +67,10 @@ namespace AssurantTest.Application.Services
             else
             {
                 decimal discountAmount = await CalculateDiscountAmountAsync(order, promotion);
+                if (discountAmount == 0)
+                {
+                    return taxAmount;
+                }
                 decimal discountedTotal = await CalculatePreTaxCostAsync(order) - discountAmount;
                 decimal discountedTaxAmount = discountedTotal * order.State.TaxRates;
                 return discountedTaxAmount;
